@@ -1,7 +1,7 @@
-class Okf < Formula
+class Cf < Formula
   include Language::Python::Virtualenv
 
-  desc "Open Knowledge Fiction (OKF) Literary Studio CLI (CanonForge)"
+  desc "The Git-Native Literary Engineering Studio & Multi-Universe Canon Orchestrator (CLI: cf)"
   homepage "https://github.com/glc-works/canonforge"
   url "https://github.com/glc-works/canonforge/archive/refs/tags/v0.3.1.tar.gz"
   sha256 "5bf64a4632e3ef77c124762775dbef6c57c3b76e636b98f27ff573a4438b5d97"
