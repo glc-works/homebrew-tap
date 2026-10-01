@@ -1,0 +1,20 @@
+Formula/canonforge.rb
+  h_fcacc84ac57fba 1-21
+Formula/cf.rb
+  h_fcacc84ac57fba 1-20
+Formula/okf.rb
+  h_fcacc84ac57fba 4-7,9,18
+README.md
+  h_fcacc84ac57fba 3,7-11,15,21,24-26,32-33,38-39
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "07bbf718dee1c67bb9001791b33e1b842fb768a3",
+  "prompts": {},
+  "humans": {
+    "h_fcacc84ac57fba": {
+      "author": "Cid <308343041+convergenceID@users.noreply.github.com>"
+    }
+  }
+}
