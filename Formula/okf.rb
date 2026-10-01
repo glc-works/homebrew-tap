@@ -8,10 +8,10 @@ class Okf < Formula
   license "MIT"
   head "https://github.com/glc-works/okf-studio.git", branch: "main"
 
-  depends_on "python@3"
+  depends_on "python@3.14"
 
   def install
-    virtualenv_install_with_resources
+    virtualenv_install_with_resources using: "python@3.14"
   end
 
   test do
