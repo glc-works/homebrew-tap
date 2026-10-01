@@ -3,8 +3,8 @@ class Canonforge < Formula
 
   desc "The Git-Native Literary Engineering Studio & Multi-Universe Canon Orchestrator"
   homepage "https://github.com/glc-works/canonforge"
-  url "https://github.com/glc-works/canonforge/archive/refs/tags/v0.4.4.tar.gz"
-  sha256 "26c9c986b955fb4b053295050c54a8b6a4b0005511176684b6994de51d1ab3ad"
+  url "https://github.com/glc-works/canonforge/archive/refs/tags/v0.4.5.tar.gz"
+  sha256 "fe44194be627914dc25ff5e2b74a7107ddac2533a20dc04b1a954e40e0deac65"
   license "MIT"
   head "https://github.com/glc-works/canonforge.git", branch: "main"
 
