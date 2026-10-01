@@ -3,8 +3,8 @@ class Okf < Formula
 
   desc "Open Knowledge Fiction (OKF) Literary Studio CLI (CanonForge)"
   homepage "https://github.com/glc-works/canonforge"
-  url "https://github.com/glc-works/canonforge/archive/refs/tags/v0.3.1.tar.gz"
-  sha256 "5bf64a4632e3ef77c124762775dbef6c57c3b76e636b98f27ff573a4438b5d97"
+  url "https://github.com/glc-works/canonforge/archive/refs/tags/v0.3.2.tar.gz"
+  sha256 "a6544af97e309d96d2c2543ea1cd7d8c13a40b04d6a872a232b19ec5c7dad754"
   license "MIT"
   head "https://github.com/glc-works/canonforge.git", branch: "main"
 
