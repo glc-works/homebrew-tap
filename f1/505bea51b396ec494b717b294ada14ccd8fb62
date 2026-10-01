@@ -1,0 +1,18 @@
+Formula/canonforge.rb
+  h_fcacc84ac57fba 6-7
+Formula/cf.rb
+  h_fcacc84ac57fba 6-7
+Formula/okf.rb
+  h_fcacc84ac57fba 6-7
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "f1505bea51b396ec494b717b294ada14ccd8fb62",
+  "prompts": {},
+  "humans": {
+    "h_fcacc84ac57fba": {
+      "author": "Cid <308343041+convergenceID@users.noreply.github.com>"
+    }
+  }
+}
