@@ -1,0 +1,18 @@
+Formula/okf.rb
+  h_fcacc84ac57fba 1-20
+LICENSE
+  h_fcacc84ac57fba 1-21
+README.md
+  h_fcacc84ac57fba 1-42
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "21da86b5937b7841d2814aa6ab5d4d489706381d",
+  "prompts": {},
+  "humans": {
+    "h_fcacc84ac57fba": {
+      "author": "Cid <308343041+convergenceID@users.noreply.github.com>"
+    }
+  }
+}
