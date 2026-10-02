@@ -11,8 +11,9 @@ class Canonforge < Formula
   depends_on "python@3.14"
 
   def install
-    venv = virtualenv_create(libexec, "python@3.14")
-    system "python3.14", "-m", "pip", "--python=#{libexec}/bin/python", "install", "pyyaml>=6.0", "tabulate>=0.9.0", "jsonschema>=4.0.0"
+    python = Formula["python@3.14"].opt_bin/"python3.14"
+    venv = virtualenv_create(libexec, python)
+    system python, "-m", "pip", "--python=#{libexec}/bin/python", "install", "pyyaml>=6.0", "tabulate>=0.9.0", "jsonschema>=4.0.0"
     venv.pip_install buildpath
   end
 
