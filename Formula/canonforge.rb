@@ -15,7 +15,11 @@ class Canonforge < Formula
     venv = virtualenv_create(libexec, python)
     system python, "-m", "pip", "--python=#{libexec}/bin/python", "install", "pyyaml>=6.0", "tabulate>=0.9.0", "jsonschema>=4.0.0"
     venv.pip_install buildpath
-    bin.install_symlink Dir["#{libexec}/bin/*"]
+    bin.install_symlink libexec/"bin/cf"
+    bin.install_symlink libexec/"bin/canonforge"
+    bin.install_symlink libexec/"bin/ax"
+    bin.install_symlink libexec/"bin/novel"
+    bin.install_symlink libexec/"bin/okf"
   end
 
   test do
